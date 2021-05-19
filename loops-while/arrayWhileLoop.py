@@ -1,2 +1,7 @@
 def insert_squares(arr, num):
-    # add square of numbers from 1 to num to the list named arr and return list
+    i = 0
+    list1 = []
+    while i < num:
+        i += 1
+        list1.append(i**2)
+    return arr + list1
